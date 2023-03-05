@@ -86,4 +86,4 @@ describe("Create Statement", () => {
       await createStatementUseCase.execute(statement);
     }).rejects.toBeInstanceOf(CreateStatementError.InsufficientFunds);
   });
-})
+});
